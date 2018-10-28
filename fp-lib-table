@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name OpenAmiga2000CoproAdapter)(type KiCad)(uri ${KIPRJMOD}/OpenAmiga2000CoproAdapter.pretty)(options "")(descr OpenAmiga2000CoproAdapter))
+)
