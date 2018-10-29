@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 19)
+    (drawings 20)
     (tracks 338)
     (zones 0)
     (modules 7)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title OpenAmiga2000CoproAdapter)
-    (date 2018-10-28)
+    (date 2018-10-29)
     (rev 1git)
     (company SukkoPera)
     (comment 1 "Based on work by Kipper2K")
@@ -21,14 +21,14 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
     (44 Edge.Cuts user)
     (45 Margin user hide)
     (46 B.CrtYd user hide)
-    (47 F.CrtYd user)
+    (47 F.CrtYd user hide)
     (49 F.Fab user hide)
   )
 
@@ -1138,6 +1138,9 @@
       (xy 0.500964 3.601424)) (layer B.Cu) (width 0.01))
   )
 
+  (gr_text FC2/1/0 (at 141.478 116.332) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 99.06 116.84) (end 100.33 115.57) (layer F.SilkS) (width 0.3))
   (gr_line (start 99.06 116.84) (end 100.33 118.11) (layer F.SilkS) (width 0.3))
   (gr_line (start 113.03 116.84) (end 99.06 116.84) (layer F.SilkS) (width 0.3))
