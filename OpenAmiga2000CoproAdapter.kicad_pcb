@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title OpenAmiga2000CoproAdapter)
-    (date 2018-10-30)
+    (date 2018-11-03)
     (rev 1git)
     (company SukkoPera)
     (comment 1 "Based on work by Kipper2K")
@@ -610,7 +610,12 @@
       (net 64 /d5))
     (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-64_W15.24mm_Socket.wrl
       (offset (xyz 0 0 -1.2))
-      (scale (xyz 1.5 1 1))
+      (scale (xyz 1.5 1 1.2))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-64_W15.24mm.step
+      (offset (xyz 0 0 3.75))
+      (scale (xyz 1.5 1 1.3))
       (rotate (xyz 0 0 0))
     )
   )
