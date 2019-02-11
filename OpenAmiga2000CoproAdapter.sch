@@ -6,11 +6,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmiga2000CoproAdapter"
-Date "2018-10-28"
-Rev "1git"
+Date "2019-02-11"
+Rev "1"
 Comp "SukkoPera"
 Comment1 "Based on work by Kipper2K"
-Comment2 ""
+Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 ""
 Comment4 ""
 $EndDescr
