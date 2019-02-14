@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmiga2000CoproAdapter"
-Date "2019-02-11"
-Rev "1"
+Date "2019-02-14"
+Rev "2git"
 Comp "SukkoPera"
 Comment1 "Based on work by Kipper2K"
 Comment2 "Licensed under CERN OHL v.1.2"
@@ -273,9 +273,6 @@ F 3 "" H 9420 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9270 2090 9420 2090
-Connection ~ 9420 2090
-Wire Wire Line
 	9270 1690 9420 1690
 Wire Wire Line
 	9270 1790 9570 1790
@@ -386,8 +383,6 @@ NoConn ~ 7770 2090
 NoConn ~ 7770 2290
 Wire Wire Line
 	7620 5790 7620 6250
-Wire Wire Line
-	9420 2090 9420 6250
 Wire Bus Line
 	10530 900  6510 900 
 Text Label 9910 900  0    50   ~ 0
@@ -951,8 +946,6 @@ Text Label 7260 3190 0    50   ~ 0
 fc1
 Text Label 7260 3290 0    50   ~ 0
 fc2
-Wire Wire Line
-	9420 1690 9420 2090
 Connection ~ 9420 1690
 $Comp
 L conn:CONN_1 P99
@@ -966,6 +959,9 @@ F 3 "" H 6790 7680 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 6790 7530
+Wire Wire Line
+	9420 1690 9420 6250
+NoConn ~ 9270 2090
 Wire Bus Line
 	10530 5390 10530 6100
 Wire Bus Line
