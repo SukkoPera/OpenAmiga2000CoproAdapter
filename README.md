@@ -10,8 +10,6 @@ The adapter is very similar to the original, except that I skipped the INT7 and 
 
 This is a slightly expensive board to manufacture because it exceeds the 10x10cm limit that cheap fab houses impose, because it needs gold-plating for better contact and resistance to repeated insertions/removals, and because the edge connector should be beveled to ease insertion. These are the recommended settings if you want to get the boards made.
 
-Note that **THIS BOARD HAS NOT BEEN TESTED**, so there is a chance that **the board does not work**. I need to say so, but actually I have triple-checked everything and I am pretty sure that everything will work as planned.
-
 ### Installation
 **Please be very careful when plugging this board** in the co-processor slot: there is an arrow on the board, **it must point to the back of the Amiga**. Plugging this adapter backwards will damage your CPU/accelerator card, as some pins of the CPU slot carry +12V!
 
@@ -35,13 +33,15 @@ The Documentation Location of the original project is https://github.com/SukkoPe
 ### Support the Project
 Since the project is open you are free to get the PCBs made by your preferred manufacturer, however in case you want to support the development, you can order them from PCBWay through this link:
 
-[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/OpenAmiga2000CoproAdapter_V2.html)
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/OpenAmiga2000CoproAdapter_V3.html)
 
 You get cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
 
 Also, if you still have to register to that site, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
 
-Again, if you want to use another manufacturer, feel free to, don't feel obligated :).
+Again, if you want to use another manufacturer, feel free to, don't feel obligated :). But then you can buy me a coffee if you want:
+
+<a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ### Get Help
 If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
