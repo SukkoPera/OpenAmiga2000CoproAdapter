@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name A2000_COPRO_SLOT)(type Legacy)(uri ${KIPRJMOD}/libs/A2000_COPRO_SLOT.lib)(options "")(descr "A2000 Copro Slot"))
+  (lib (name OpenAmiga2000CoproAdapter-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenAmiga2000CoproAdapter-rescue.lib)(options "")(descr ""))
 )

@@ -176,11 +176,11 @@ X R/W 9 1000 -2200 300 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# conn_CONN_1
+# OpenAmiga2000CoproAdapter-rescue_CONN_1-conn
 #
-DEF ~conn_CONN_1 P 0 30 N N 1 F N
+DEF OpenAmiga2000CoproAdapter-rescue_CONN_1-conn P 0 30 N N 1 F N
 F0 "P" 80 0 40 H V C CNN
-F1 "conn_CONN_1" -50 40 30 H I C CNN
+F1 "OpenAmiga2000CoproAdapter-rescue_CONN_1-conn" -50 40 30 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -190,11 +190,11 @@ X 1 1 -150 0 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_CONN_2
+# OpenAmiga2000CoproAdapter-rescue_CONN_2-conn
 #
-DEF conn_CONN_2 P 0 40 Y N 1 F N
+DEF OpenAmiga2000CoproAdapter-rescue_CONN_2-conn P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "conn_CONN_2" 50 0 40 V V C CNN
+F1 "OpenAmiga2000CoproAdapter-rescue_CONN_2-conn" 50 0 40 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

@@ -8,12 +8,14 @@ OpenAmiga2000CoproAdapter is an adapter that allows installing the main processo
 
 The adapter is very similar to the original, except that I skipped the INT7 and the A600 NMI circuits. Those are not needed for TerribleFire cards and for most other boards (I think they are for Vampires only). I carried over the INT2/OVR header, since the former is needed for the TF530. I have also introduced solder jumpers for the FR0-2 signals: those are not connected on kipper2k's board, I don't know why and it works well anyway, but I thought they wouldn't hurt as they will be open by default.
 
+You may be able to install this without removing the original CPU by cutting the E jumper and closing the BOSS one.
+
 This is a slightly expensive board to manufacture because it exceeds the 10x10cm limit that cheap fab houses impose, because it needs gold-plating for better contact and resistance to repeated insertions/removals, and because the edge connector should be beveled to ease insertion. These are the recommended settings if you want to get the boards made.
 
 ### Installation
 **Please be very careful when plugging this board** in the co-processor slot: there is an arrow on the board, **it must point to the back of the Amiga**. Plugging this adapter backwards will damage your CPU/accelerator card, as some pins of the CPU slot carry +12V!
 
-When this board is installed, most likely the original 68000 socket must be left empty, though this ultimately depends on the particular card you will be installing.
+When this board is installed, most likely the original 68000 socket must be left empty unless you cut the E jumper and close the BOSS jumper, though this ultimately depends on the particular card you will be installing.
 
 ### License
 The OpenAmiga2000CoproAdapter documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
